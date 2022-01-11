@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Lato";
+    src: url(https://gu-st.ru/covid-web-st/static-pages-assets/fonts/Lato-Regular.woff2) format('woff2'),
+    url(https://gu-st.ru/covid-web-st/static-pages-assets/fonts/Lato-Regular.woff2) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url(https://gu-st.ru/covid-web-st/static-pages-assets/fonts/Lato-Bold.woff2) format("woff2"),
+    url(https://gu-st.ru/covid-web-st/static-pages-assets/fonts/Lato-Bold.woff2) format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    font-family: Lato, Arial, sans-serif;
+    color: #0b1f33;
+    background-color: #fafcff;
+    width: 350;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    min-width: 350px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    content: "";
+
+}
+.top{
+    margin-top: 56px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    margin-left: 24px;
+}
+.lang{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    margin-right: 24px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Lato, Arial, sans-serif;
+    color: #0b1f33;
+}
+.ru{
+    margin-right: 8px;
+}
+
+.greeen{
+    height: 172px;
+    background-image: url(/greeen.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    /* padding-left: 50px; */
+    padding-top: 1px ;
+    
+}
+.cert{
+    font-family: Lato-Bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    
+    margin-top: 25px;
+    width: 312px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.true{
+    font-size: 14px;
+    line-height: 20px;
+    color: #0b1f33;
+    background-color: #ffffff;
+    border-radius: 30px;
+
+    margin-top:11px;
+    width: 195px;
+    height: 35px;
+
+
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nomer{
+    font-family: Lato-Bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    
+    margin-top:12px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.data{
+    font-size: 14px;
+    line-height: 20px;
+    color: #0b1f33;
+}
+.name{
+        font-family: Lato, Arial, sans-serif;
+        font-weight: 600;
+    color: #0b1f33;   
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+
+    margin-top:30px;
+}
+.passport{
+    margin-top: 4px;
+}
+.born{
+    margin-top: 5px;
+}
+span{
+    color: #66727f;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.blockbutton{
+    margin-top: 24px;
+    text-align: center;
+}
+.button{
+    border: 2px solid #0D4CD3;
+    border-radius: 8px;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #0D4CD3;
+    background: #FFFFFF;
+
+    display: block;
+}
+.button:hover {
+    background-color: #f5f7fa;
+    border-color: #1d5deb;
+    color: #1d5deb;
+}
